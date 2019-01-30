@@ -1,0 +1,10 @@
+{
+    "type": "mysql",
+    "host": "192.168.103.43",
+    "port": 3306,
+    "username": "root",
+    "password": "mysql",
+    "database": "smartcity_usc",
+    "entities": ["src/**/**.entity{.ts,.js}"],
+    "synchronize": true
+}
